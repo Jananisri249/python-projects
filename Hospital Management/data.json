@@ -1,0 +1,132 @@
+{
+    "admins": [
+        {
+            "user_id": 1,
+            "name": "Admin",
+            "role": "admin",
+            "password": "admin123"
+        }
+    ],
+    "doctors": [
+        {
+            "user_id": 2,
+            "name": "muthu",
+            "role": "doctor",
+            "password": "muthu123",
+            "specialization": "eye",
+            "patients": []
+        },
+        {
+            "user_id": 3,
+            "name": "muthu",
+            "role": "doctor",
+            "password": "muthu123",
+            "specialization": "eye",
+            "patients": []
+        },
+        {
+            "user_id": 4,
+            "name": "kumar",
+            "role": "doctor",
+            "password": "kumar123",
+            "specialization": "skin",
+            "patients": []
+        },
+        {
+            "user_id": 5,
+            "name": "Janani",
+            "role": "doctor",
+            "password": "Janani123",
+            "specialization": "Skin",
+            "patients": []
+        },
+        {
+            "user_id": 6,
+            "name": "Janani",
+            "role": "doctor",
+            "password": "Janani123",
+            "specialization": "Skin",
+            "patients": []
+        }
+    ],
+    "patients": [
+        {
+            "user_id": 2,
+            "name": "yoga",
+            "role": "patient",
+            "password": "yoga123",
+            "age": 28,
+            "contact": "9999999",
+            "appointments": []
+        },
+        {
+            "user_id": 3,
+            "name": "vijay",
+            "role": "patient",
+            "password": "vijay123",
+            "age": 34,
+            "contact": "89884495",
+            "appointments": []
+        },
+        {
+            "user_id": 4,
+            "name": "jaanu",
+            "role": "patient",
+            "password": "jaanu123",
+            "age": 6,
+            "contact": "6379169975",
+            "appointments": []
+        },
+        {
+            "user_id": 5,
+            "name": "jaanu",
+            "role": "patient",
+            "password": "jaanu123",
+            "age": 0,
+            "contact": "6379169975",
+            "appointments": []
+        }
+    ],
+    "appointments": [
+        {
+            "appointment_id": 2,
+            "patient_id": 2,
+            "doctor_id": 2,
+            "date": "2025-10-13",
+            "status": "Pending"
+        },
+        {
+            "appointment_id": 3,
+            "patient_id": 2,
+            "doctor_id": 2,
+            "date": "2025-10-13",
+            "status": "Pending"
+        },
+        {
+            "appointment_id": 4,
+            "patient_id": 2,
+            "doctor_id": 2,
+            "date": "2025-10-13",
+            "status": "Pending"
+        },
+        {
+            "appointment_id": 5,
+            "patient_id": 4,
+            "doctor_id": 5,
+            "date": "2025-10-16",
+            "status": "Pending"
+        },
+        {
+            "appointment_id": 6,
+            "patient_id": 4,
+            "doctor_id": 5,
+            "date": "2025-10-16",
+            "status": "Pending"
+        }
+    ],
+    "next_ids": {
+        "doctor": 6,
+        "patient": 5,
+        "appointment": 6
+    }
+}
